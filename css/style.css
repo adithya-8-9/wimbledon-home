@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+/*  font-display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+  height: 100vh;
+  
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.logo {
+  position: absolute;
+  left: 850px;
+  top: 100px;
+  width: 100%; 
+  max-width: 200px;
+  height: auto; 
+  transition: 2s;
+}
+
+.logo:hover {
+  animation: rotate 2s;
+}
+
+.label1 {
+  font-weight: bold;
+  font-size: 22px; 
+  color: white;
+  position: absolute;
+  top: 990px;
+  left: 130px;
+  letter-spacing: 3px;
+  writing-mode: vertical-lr;
+
+
+}
+
+.label2 {
+  font-weight: bold;
+  font-size: 22px; 
+  color: white;
+  position: absolute;
+  top: 1997px;
+  left: 130px;
+  letter-spacing: 3px;
+  writing-mode: vertical-lr;
+}
+
+.alcaraz {
+  position: absolute;
+  right: 0px;
+  top: 950px;
+  width: 100%;
+  max-width: 1600px;
+  height: auto;
+}
+
+.krejcikova {
+  position: absolute;
+  right: 0px;
+  top: 1957px;
+  width: 100%;
+  max-width: 1600px;
+  height: auto;
+}
+
+.navigation {
+  position: fixed;
+  left: 530px;
+  bottom: 150px; 
+  display: flex;
+  gap: 90px; 
+  z-index: 3;
+}
+
+.nav_text {
+  font-weight: bold;
+  font-size: 28px; 
+  color: white;
+  text-decoration: none;
+
+}
+
+.line {
+  width: 1511px;
+  height: 0px;
+  border-top: solid black 1px;
+  position: absolute;
+  top: 3160px;
+}
+
+.socials {
+  position: absolute;
+  left: 100px;
+  top: 3180px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.footer {
+  font-size: 20px;
+  color: black;
+  word-spacing: 60px;
+  position: absolute;
+  top: 3200px;
+  left: 450px;
+  text-align: center;
+
+}
+
+.overlay {
+  width: 365px;
+  height: 670px;
+  background: #02383A;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  display: none;
+  z-index: 2;
+}
+
+
+.bar { 
+  width: 1230px;
+  height: 40px;
+  position: fixed;
+  left: 0px ;
+  top: 630px ;
+  background: black;
+  z-index: 1;
+ }
